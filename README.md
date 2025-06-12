@@ -1,39 +1,29 @@
-# Minecraft Technical Server 1.21.1 - Configuración Privada  
+# Minecraft Server 1.21.1 - Configuración Privada  
 
-![Minecraft 1.21.1](https://img.shields.io/badge/Minecraft-1.21.1-green) ![Codespaces](https://img.shields.io/badge/GitHub-CodeSpaces-blue)  
+![Minecraft 1.21.1](https://img.shields.io/badge/Minecraft-1.21.1-green) ![Tailscale](https://img.shields.io/badge/Tailscale-5C3EE8) ![Python](https://img.shields.io/badge/Python-MSX.py-blue)  
 
-Este repositorio es mi configuración personal para administrar mi servidor técnico de Minecraft **1.21.1** usando GitHub Codespaces.  
+**Repositorio privado** con mi configuración personal para administrar mi servidor técnico de Minecraft 1.21.1 usando:  
+- 🐍 `MSX.py` (mi script personal de gestión)  
+- � **Tailscale** como puente de conexión  
+- 💻 GitHub Codespaces para administración remota  
 
-## 🛠️ Configuración  
+---
 
-### Archivos importantes:  
-- `server/`: Carpeta del servidor (Paper/Fabric/Quilt, según versión).  
-- `scripts/`:  
-  - `start.sh`: Inicia el servidor con flags personalizados.  
-  - `backup.sh`: Backup automático de mundos y configs.  
-- `server.properties`: Configuración base del servidor.  
+## 🖥️ Configuración Actual  
 
-### Comandos útiles:  
-```bash
-# Iniciar servidor (con screen para persistencia)
-./scripts/start.sh
+### 📌 Stack Técnico  
+- **Core**: PaperMC 1.21.1 (optimizado para granjas)  
+- **Gestión**: Script `MSX.py` (arranque/backups/plugins)  
+- **Conexión**: Tailscale (IP privada `100.x.x.x`)  
+- **JVM Args**: `-Xms6G -Xmx6G +Aikar's Flags`  
 
-# Backup manual (se ejecuta automáticamente cada 6h)
-./scripts/backup.sh
+### 📂 Estructura  
+```  
+📦mc-1.21.1  
+├── 📜MSX.py                # Script principal (start/stop/backup)  
+├── 📂server/               # Instancia PaperMC  
+│   ├── 📂plugins           # Carpet/Lithium/etc  
+│   └── 📂worlds            # Mundos técnicos  
+├── 📂tailscale/            # Config VPN  
+└── 📂backups/              # Backups automáticos (cada 6h)  
 ```
-
-## ⚙️ Mi Setup Técnico  
-- **Versión**: Paper 1.21.1 (optimizado para granjas técnias).  
-- **Flags de JVM**: `-Xms6G -Xmx6G -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions`.  
-- **Plugins/Mods**: Carpet, Lithium, STAPI (privados).  
-
-## 📂 Estructura  
-```  
-📦mc-server-1.21.1  
-├── 📂server          # Core del servidor  
-├── 📂backups         # Backups automáticos  
-├── 📂scripts         # Scripts de gestión  
-└── 📜README.md       # Esta guía  
-```  
-
-> 🔒 **Privado**: Este repo es solo para mi configuración personal. No está destinado a distribución pública.
