@@ -1,0 +1,97 @@
+[21:52:34] [main/INFO]: Loading Minecraft 1.21.10 with Fabric Loader 0.17.2
+[21:52:35] [main/INFO]: Loading 50 mods:
+	- collective 8.8
+	- entityculling 1.9.0
+	   |-- transition 1.0.5
+	   \-- trender 1.0.7
+	- fabric-api 0.135.0+1.21.10
+	   |-- fabric-api-base 1.0.0+14b92d896f
+	   |-- fabric-api-lookup-api-v1 1.6.106+d17682156f
+	   |-- fabric-biome-api-v1 16.1.0+c2417d4f6f
+	   |-- fabric-block-api-v1 1.1.5+d17682156f
+	   |-- fabric-block-view-api-v2 1.0.34+e4fd1b926f
+	   |-- fabric-command-api-v2 2.4.0+c0ab2d5d6f
+	   |-- fabric-content-registries-v0 10.2.4+b6a242646f
+	   |-- fabric-convention-tags-v1 2.1.48+7f945d5b6f
+	   |-- fabric-convention-tags-v2 2.16.0+552403eb6f
+	   |-- fabric-crash-report-info-v1 0.3.18+33df5e6e6f
+	   |-- fabric-data-attachment-api-v1 1.8.29+9bce411b6f
+	   |-- fabric-data-generation-api-v1 23.2.23+d8b85ef16f
+	   |-- fabric-dimensions-v1 4.0.22+38b9cc196f
+	   |-- fabric-entity-events-v1 2.1.13+fde3702c6f
+	   |-- fabric-events-interaction-v0 4.0.35+5ba217126f
+	   |-- fabric-game-rule-api-v1 1.1.1+e47eaae56f
+	   |-- fabric-item-api-v1 11.5.9+9bce411b6f
+	   |-- fabric-item-group-api-v1 4.2.25+86b3ae576f
+	   |-- fabric-key-binding-api-v1 1.1.1+b3ba9c486f
+	   |-- fabric-lifecycle-events-v1 2.6.9+33df5e6e6f
+	   |-- fabric-loot-api-v2 3.0.65+3f89f5a56f
+	   |-- fabric-loot-api-v3 2.0.12+d17682156f
+	   |-- fabric-message-api-v1 6.1.7+3154c1c86f
+	   |-- fabric-model-loading-api-v1 6.0.1+3ffd6ef06f
+	   |-- fabric-networking-api-v1 5.0.13+d269470c6f
+	   |-- fabric-object-builder-api-v1 21.1.25+9bce411b6f
+	   |-- fabric-particles-v1 4.2.2+a0ee59a46f
+	   |-- fabric-recipe-api-v1 8.1.26+d17682156f
+	   |-- fabric-registry-sync-v0 6.1.41+679c8c5c6f
+	   |-- fabric-renderer-api-v1 7.1.2+328a75ba6f
+	   |-- fabric-renderer-indigo 4.1.0+d7df91576f
+	   |-- fabric-rendering-fluids-v1 3.1.38+86b3ae576f
+	   |-- fabric-rendering-v1 16.0.2+91152d886f
+	   |-- fabric-resource-conditions-api-v1 5.0.28+33df5e6e6f
+	   |-- fabric-resource-loader-v0 3.2.3+3388a3b26f
+	   |-- fabric-resource-loader-v1 1.0.3+8cc86c156f
+	   |-- fabric-screen-api-v1 3.1.0+9c82a7986f
+	   |-- fabric-screen-handler-api-v1 1.3.150+d17682156f
+	   |-- fabric-serialization-api-v1 1.0.0+d857c9766f
+	   |-- fabric-sound-api-v1 1.0.45+328a75ba6f
+	   |-- fabric-tag-api-v1 1.2.11+2fa446b26f
+	   |-- fabric-transfer-api-v1 6.0.15+79ec2c126f
+	   \-- fabric-transitive-access-wideners-v1 6.5.3+41eb43436f
+	- fabricloader 0.17.2
+	   \-- mixinextras 0.5.0
+	- ferritecore 8.0.0
+	- infinitetrading 4.6
+	- java 21
+	- minecraft 1.21.10
+	- nochatreports 1.21.10-v2.16.0
+	- skinrestorer 2.4.3+1.21.9-fabric
+	   \-- org_mineskin_java-client 3.0.6-SNAPSHOT
+[21:52:35] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/MSX-TECNICO/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.3+mixin.0.8.7/sponge-mixin-0.16.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[21:52:35] [main/INFO]: Compatibility level set to JAVA_21
+[21:52:37] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[21:52:48] [main/INFO]: Loading Collective version 8.8.
+[21:52:49] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[21:52:53] [main/INFO]: Loaded 1461 recipes
+[21:52:53] [main/INFO]: Loaded 1574 advancements
+[21:52:53] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 6.019 ms
+[21:52:53] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[21:52:53] [Server thread/INFO]: Loading properties
+[21:52:53] [Server thread/INFO]: Default game type: SURVIVAL
+[21:52:53] [Server thread/INFO]: Generating keypair
+[21:52:53] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:52:54] [Server thread/INFO]: Using epoll channel type
+[21:52:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:52:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:52:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:52:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:52:54] [Server thread/INFO]: Preparing level "world"
+[21:52:54] [Server thread/INFO]: Loading 0 persistent chunks...
+[21:52:54] [Server thread/INFO]: Preparing spawn area: 100%
+[21:52:54] [Server thread/INFO]: Time elapsed: 110 ms
+[21:52:54] [Server thread/INFO]: Done (0.726s)! For help, type "help"
+[21:53:11] [Server thread/INFO]: MrGameBlaze[/127.129.209.248:50429] logged in with entity id 113 at (276.6864549294285, 73.0, 1293.0254268664166)
+[21:53:11] [Server thread/INFO]: MrGameBlaze joined the game
+[21:53:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2073ms or 41 ticks behind
+[21:53:29] [Server thread/INFO]: MrGameBlaze lost connection: Disconnected
+[21:53:29] [Server thread/INFO]: MrGameBlaze left the game
+[21:53:33] [Server thread/INFO]: MrGameBlaze[/127.129.209.248:46621] logged in with entity id 528 at (277.48643555766006, 72.0, 1311.0014306154853)
+[21:53:33] [Server thread/INFO]: MrGameBlaze joined the game
+[21:53:47] [Server thread/INFO]: MrGameBlaze lost connection: Disconnected
+[21:53:47] [Server thread/INFO]: MrGameBlaze left the game
+[21:54:05] [Server thread/INFO]: Seed: [4747481330987865361]
+[21:54:47] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[21:55:10] [Server thread/INFO]: MrGameBlaze[/127.129.209.248:59431] logged in with entity id 925 at (277.48643555766006, 72.0, 1311.0014306154853)
+[21:55:10] [Server thread/INFO]: MrGameBlaze joined the game
+[22:01:43] [Server thread/WARN]: Oak Boat (vehicle of MrGameBlaze) moved wrongly! 0.26261110428967527
+[22:01:43] [Server thread/WARN]: Oak Boat (vehicle of MrGameBlaze) moved wrongly! 0.2840454330923876
